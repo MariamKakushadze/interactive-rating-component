@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function PopUp({card}) {
   return (
     <div className="rated-container">

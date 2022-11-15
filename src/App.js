@@ -9,9 +9,9 @@ function App() {
   return (
     <div className="card">
       {!popup ? (
-        <Card popup={popup} setPopup={setPopup} card={card} setCard={setCard} />
+        <Card setPopup={setPopup} card={card} setCard={setCard} />
       ) : (
-        <PopUp card={card} />
+        <PopUp  card={card} />
       )}
     </div>
   );

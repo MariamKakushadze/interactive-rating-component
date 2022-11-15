@@ -1,8 +1,8 @@
 import Buttons from "./buttons";
-import Submit from "./submit"
+import Submit from "./submit";
 import React from "react";
 
-function Card({card,setCard,popup,setPopup}) {
+function Card({ card, setCard, popup, setPopup }) {
   return (
     <div className="container">
       <div className="round-bg">
@@ -18,11 +18,8 @@ function Card({card,setCard,popup,setPopup}) {
         Please let us know how we did with your support request. All feedback is
         appreciated to help us improve our offering!
       </span>
-      <Buttons 
-        numbers = {[1, 2, 3, 4, 5]}
-        card={card} setCard={setCard} popup={popup}
-       /> 
-       <Submit card={card} setPopup={setPopup} />
+      <Buttons card={card} setCard={setCard} popup={popup} />
+      <Submit card={card} setPopup={setPopup} />
     </div>
   );
 }
